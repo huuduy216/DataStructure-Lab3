@@ -1,20 +1,1070 @@
-Start Logger test
+TICK: 1
 
-----------
-Configuration:
+Station 0 has 0 passenger(s) inbound and 14 passenger(s) outbound
+Station 1 has 1 passenger(s) inbound and 5 passenger(s) outbound
+Station 2 has 6 passenger(s) inbound and 6 passenger(s) outbound
+Station 3 has 8 passenger(s) inbound and 1 passenger(s) outbound
+Station 4 has 9 passenger(s) inbound and 0 passenger(s) outbound
 
-Ticks: 50
-Seed: 12345
-Route: Linear with length 20
-Stations: [1, 20, 4, 15, 10]
-Trains:
-	Inbound at location 1 with capacity 20
-	Inbound at location 2 with capacity 15
-	Inbound at location 6 with capacity 20
-	Inbound at location 10 with capacity 20
-	Outbound at location 4 with capacity 10
-	Outbound at location 20 with capacity 25
-Passengers: [50, 5..75]
-----------
+Train 1 is Inbound at position 1 on TrainRoute 1 with capacity 20
+Train 1 ARRIVED AT Station 1
+Train 2 is Inbound at position 2 on TrainRoute 1 with capacity 15
+Train 3 is Inbound at position 6 on TrainRoute 1 with capacity 20
+Train 4 is Inbound at position 10 on TrainRoute 1 with capacity 20
+Train 4 ARRIVED AT Station 5
+Passenger 10 boarded Train 4
+Passenger 14 boarded Train 4
+Passenger 17 boarded Train 4
+Passenger 18 boarded Train 4
+Passenger 19 boarded Train 4
+Passenger 34 boarded Train 4
+Passenger 39 boarded Train 4
+Passenger 43 boarded Train 4
+Passenger 45 boarded Train 4
+Train 5 is Outbound at position 4 on TrainRoute 1 with capacity 10
+Train 5 ARRIVED AT Station 3
+Passenger 5 boarded Train 5
+Passenger 20 boarded Train 5
+Passenger 29 boarded Train 5
+Passenger 42 boarded Train 5
+Passenger 47 boarded Train 5
+Passenger 49 boarded Train 5
+Train 6 is Outbound at position 20 on TrainRoute 1 with capacity 25
+Train 6 ARRIVED AT Station 2
+Passenger 7 boarded Train 6
+Passenger 23 boarded Train 6
+Passenger 38 boarded Train 6
+Passenger 44 boarded Train 6
+Passenger 48 boarded Train 6
 
-Finish Logger test
+TICK: 2
+
+Station 0 has 0 passenger(s) inbound and 22 passenger(s) outbound
+Station 1 has 1 passenger(s) inbound and 3 passenger(s) outbound
+Station 2 has 7 passenger(s) inbound and 1 passenger(s) outbound
+Station 3 has 10 passenger(s) inbound and 2 passenger(s) outbound
+Station 4 has 1 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Outbound at position 1 on TrainRoute 1 with capacity 20
+Train 1 ARRIVED AT Station 1
+Passenger 1 boarded Train 1
+Passenger 2 boarded Train 1
+Passenger 11 boarded Train 1
+Passenger 15 boarded Train 1
+Passenger 16 boarded Train 1
+Passenger 26 boarded Train 1
+Passenger 27 boarded Train 1
+Passenger 28 boarded Train 1
+Passenger 31 boarded Train 1
+Passenger 33 boarded Train 1
+Passenger 35 boarded Train 1
+Passenger 36 boarded Train 1
+Passenger 40 boarded Train 1
+Passenger 41 boarded Train 1
+Passenger 51 boarded Train 1
+Passenger 55 boarded Train 1
+Passenger 57 boarded Train 1
+Passenger 59 boarded Train 1
+Passenger 60 boarded Train 1
+Passenger 65 boarded Train 1
+Train 2 is Inbound at position 1 on TrainRoute 1 with capacity 15
+Train 2 ARRIVED AT Station 1
+Train 3 is Inbound at position 5 on TrainRoute 1 with capacity 20
+Train 4 is Inbound at position 9 on TrainRoute 1 with capacity 20
+Train 5 is Outbound at position 5 on TrainRoute 1 with capacity 10
+Train 6 is Inbound at position 20 on TrainRoute 1 with capacity 25
+Train 6 ARRIVED AT Station 2
+Passenger 37 boarded Train 6
+
+TICK: 3
+
+Station 0 has 0 passenger(s) inbound and 2 passenger(s) outbound
+Station 1 has 1 passenger(s) inbound and 6 passenger(s) outbound
+Station 2 has 11 passenger(s) inbound and 1 passenger(s) outbound
+Station 3 has 14 passenger(s) inbound and 2 passenger(s) outbound
+Station 4 has 7 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Outbound at position 2 on TrainRoute 1 with capacity 20
+Train 2 is Outbound at position 1 on TrainRoute 1 with capacity 15
+Train 2 ARRIVED AT Station 1
+Passenger 67 boarded Train 2
+Passenger 82 boarded Train 2
+Train 3 is Inbound at position 4 on TrainRoute 1 with capacity 20
+Train 3 ARRIVED AT Station 3
+Passenger 3 boarded Train 3
+Passenger 4 boarded Train 3
+Passenger 12 boarded Train 3
+Passenger 25 boarded Train 3
+Passenger 30 boarded Train 3
+Passenger 32 boarded Train 3
+Passenger 56 boarded Train 3
+Passenger 73 boarded Train 3
+Passenger 74 boarded Train 3
+Passenger 80 boarded Train 3
+Passenger 84 boarded Train 3
+Train 4 is Inbound at position 8 on TrainRoute 1 with capacity 20
+Train 5 is Outbound at position 6 on TrainRoute 1 with capacity 10
+Train 6 is Inbound at position 19 on TrainRoute 1 with capacity 25
+
+TICK: 4
+
+Station 0 has 0 passenger(s) inbound and 3 passenger(s) outbound
+Station 1 has 1 passenger(s) inbound and 8 passenger(s) outbound
+Station 2 has 1 passenger(s) inbound and 2 passenger(s) outbound
+Station 3 has 15 passenger(s) inbound and 3 passenger(s) outbound
+Station 4 has 10 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Outbound at position 3 on TrainRoute 1 with capacity 20
+Train 2 is Outbound at position 2 on TrainRoute 1 with capacity 15
+Train 3 is Inbound at position 3 on TrainRoute 1 with capacity 20
+Train 4 is Inbound at position 7 on TrainRoute 1 with capacity 20
+Train 5 is Outbound at position 7 on TrainRoute 1 with capacity 10
+Train 6 is Inbound at position 18 on TrainRoute 1 with capacity 25
+
+TICK: 5
+
+Station 0 has 0 passenger(s) inbound and 5 passenger(s) outbound
+Station 1 has 1 passenger(s) inbound and 9 passenger(s) outbound
+Station 2 has 2 passenger(s) inbound and 5 passenger(s) outbound
+Station 3 has 18 passenger(s) inbound and 4 passenger(s) outbound
+Station 4 has 14 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Outbound at position 4 on TrainRoute 1 with capacity 20
+Train 1 ARRIVED AT Station 3
+Passenger 2 got off at Station 3
+Passenger 27 got off at Station 3
+Passenger 35 got off at Station 3
+Passenger 58 boarded Train 1
+Passenger 92 boarded Train 1
+Passenger 104 boarded Train 1
+Train 2 is Outbound at position 3 on TrainRoute 1 with capacity 15
+Train 3 is Inbound at position 2 on TrainRoute 1 with capacity 20
+Train 4 is Inbound at position 6 on TrainRoute 1 with capacity 20
+Train 5 is Outbound at position 8 on TrainRoute 1 with capacity 10
+Train 6 is Inbound at position 17 on TrainRoute 1 with capacity 25
+
+TICK: 6
+
+Station 0 has 0 passenger(s) inbound and 7 passenger(s) outbound
+Station 1 has 2 passenger(s) inbound and 12 passenger(s) outbound
+Station 2 has 3 passenger(s) inbound and 4 passenger(s) outbound
+Station 3 has 22 passenger(s) inbound and 6 passenger(s) outbound
+Station 4 has 16 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Outbound at position 5 on TrainRoute 1 with capacity 20
+Train 2 is Outbound at position 4 on TrainRoute 1 with capacity 15
+Train 2 ARRIVED AT Station 3
+Passenger 111 boarded Train 2
+Passenger 122 boarded Train 2
+Passenger 125 boarded Train 2
+Passenger 126 boarded Train 2
+Train 3 is Inbound at position 1 on TrainRoute 1 with capacity 20
+Train 3 ARRIVED AT Station 1
+Passenger 3 got off at Station 1
+Passenger 12 got off at Station 1
+Passenger 30 got off at Station 1
+Passenger 73 got off at Station 1
+Passenger 74 got off at Station 1
+Passenger 80 got off at Station 1
+Train 4 is Inbound at position 5 on TrainRoute 1 with capacity 20
+Train 5 is Outbound at position 9 on TrainRoute 1 with capacity 10
+Train 6 is Inbound at position 16 on TrainRoute 1 with capacity 25
+
+TICK: 7
+
+Station 0 has 0 passenger(s) inbound and 7 passenger(s) outbound
+Station 1 has 2 passenger(s) inbound and 14 passenger(s) outbound
+Station 2 has 3 passenger(s) inbound and 1 passenger(s) outbound
+Station 3 has 23 passenger(s) inbound and 6 passenger(s) outbound
+Station 4 has 17 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Outbound at position 6 on TrainRoute 1 with capacity 20
+Train 2 is Outbound at position 5 on TrainRoute 1 with capacity 15
+Train 3 is Outbound at position 1 on TrainRoute 1 with capacity 20
+Train 3 ARRIVED AT Station 1
+Passenger 87 boarded Train 3
+Passenger 93 boarded Train 3
+Passenger 98 boarded Train 3
+Passenger 103 boarded Train 3
+Passenger 108 boarded Train 3
+Passenger 114 boarded Train 3
+Passenger 119 boarded Train 3
+Train 4 is Inbound at position 4 on TrainRoute 1 with capacity 20
+Train 4 ARRIVED AT Station 3
+Passenger 97 boarded Train 4
+Passenger 109 boarded Train 4
+Passenger 124 boarded Train 4
+Train 5 is Outbound at position 10 on TrainRoute 1 with capacity 10
+Train 5 ARRIVED AT Station 5
+Train 6 is Inbound at position 15 on TrainRoute 1 with capacity 25
+Train 6 ARRIVED AT Station 4
+Passenger 6 boarded Train 6
+Passenger 8 boarded Train 6
+Passenger 9 boarded Train 6
+Passenger 13 boarded Train 6
+Passenger 22 boarded Train 6
+Passenger 24 boarded Train 6
+Passenger 46 boarded Train 6
+Passenger 50 boarded Train 6
+Passenger 54 boarded Train 6
+Passenger 63 boarded Train 6
+Passenger 71 boarded Train 6
+Passenger 75 boarded Train 6
+Passenger 76 boarded Train 6
+Passenger 78 boarded Train 6
+Passenger 89 boarded Train 6
+Passenger 100 boarded Train 6
+Passenger 101 boarded Train 6
+Passenger 105 boarded Train 6
+Passenger 117 boarded Train 6
+
+TICK: 8
+
+Station 0 has 0 passenger(s) inbound and 4 passenger(s) outbound
+Station 1 has 2 passenger(s) inbound and 18 passenger(s) outbound
+Station 2 has 2 passenger(s) inbound and 4 passenger(s) outbound
+Station 3 has 5 passenger(s) inbound and 7 passenger(s) outbound
+Station 4 has 19 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Outbound at position 7 on TrainRoute 1 with capacity 20
+Train 2 is Outbound at position 6 on TrainRoute 1 with capacity 15
+Train 3 is Outbound at position 2 on TrainRoute 1 with capacity 20
+Train 4 is Inbound at position 3 on TrainRoute 1 with capacity 20
+Train 5 is Outbound at position 11 on TrainRoute 1 with capacity 10
+Train 6 is Inbound at position 14 on TrainRoute 1 with capacity 25
+
+TICK: 9
+
+Station 0 has 0 passenger(s) inbound and 4 passenger(s) outbound
+Station 1 has 2 passenger(s) inbound and 21 passenger(s) outbound
+Station 2 has 2 passenger(s) inbound and 5 passenger(s) outbound
+Station 3 has 6 passenger(s) inbound and 7 passenger(s) outbound
+Station 4 has 21 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Outbound at position 8 on TrainRoute 1 with capacity 20
+Train 2 is Outbound at position 7 on TrainRoute 1 with capacity 15
+Train 3 is Outbound at position 3 on TrainRoute 1 with capacity 20
+Train 4 is Inbound at position 2 on TrainRoute 1 with capacity 20
+Train 5 is Outbound at position 12 on TrainRoute 1 with capacity 10
+Train 6 is Inbound at position 13 on TrainRoute 1 with capacity 25
+
+TICK: 10
+
+Station 0 has 0 passenger(s) inbound and 5 passenger(s) outbound
+Station 1 has 2 passenger(s) inbound and 24 passenger(s) outbound
+Station 2 has 5 passenger(s) inbound and 7 passenger(s) outbound
+Station 3 has 8 passenger(s) inbound and 7 passenger(s) outbound
+Station 4 has 22 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Outbound at position 9 on TrainRoute 1 with capacity 20
+Train 2 is Outbound at position 8 on TrainRoute 1 with capacity 15
+Train 3 is Outbound at position 4 on TrainRoute 1 with capacity 20
+Train 3 ARRIVED AT Station 3
+Passenger 132 boarded Train 3
+Passenger 137 boarded Train 3
+Passenger 139 boarded Train 3
+Passenger 150 boarded Train 3
+Passenger 156 boarded Train 3
+Passenger 163 boarded Train 3
+Passenger 171 boarded Train 3
+Train 4 is Inbound at position 1 on TrainRoute 1 with capacity 20
+Train 4 ARRIVED AT Station 1
+Passenger 34 got off at Station 1
+Passenger 109 got off at Station 1
+Train 5 is Outbound at position 13 on TrainRoute 1 with capacity 10
+Train 6 is Inbound at position 12 on TrainRoute 1 with capacity 25
+
+TICK: 11
+
+Station 0 has 0 passenger(s) inbound and 9 passenger(s) outbound
+Station 1 has 2 passenger(s) inbound and 26 passenger(s) outbound
+Station 2 has 7 passenger(s) inbound and 1 passenger(s) outbound
+Station 3 has 9 passenger(s) inbound and 7 passenger(s) outbound
+Station 4 has 25 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Outbound at position 10 on TrainRoute 1 with capacity 20
+Train 1 ARRIVED AT Station 5
+Train 2 is Outbound at position 9 on TrainRoute 1 with capacity 15
+Train 3 is Outbound at position 5 on TrainRoute 1 with capacity 20
+Train 4 is Outbound at position 1 on TrainRoute 1 with capacity 20
+Train 4 ARRIVED AT Station 1
+Passenger 138 boarded Train 4
+Passenger 141 boarded Train 4
+Passenger 145 boarded Train 4
+Passenger 148 boarded Train 4
+Passenger 170 boarded Train 4
+Passenger 174 boarded Train 4
+Passenger 181 boarded Train 4
+Passenger 184 boarded Train 4
+Passenger 186 boarded Train 4
+Train 5 is Outbound at position 14 on TrainRoute 1 with capacity 10
+Train 6 is Inbound at position 11 on TrainRoute 1 with capacity 25
+
+TICK: 12
+
+Station 0 has 0 passenger(s) inbound and 1 passenger(s) outbound
+Station 1 has 3 passenger(s) inbound and 29 passenger(s) outbound
+Station 2 has 7 passenger(s) inbound and 1 passenger(s) outbound
+Station 3 has 12 passenger(s) inbound and 7 passenger(s) outbound
+Station 4 has 26 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Outbound at position 11 on TrainRoute 1 with capacity 20
+Train 2 is Outbound at position 10 on TrainRoute 1 with capacity 15
+Train 2 ARRIVED AT Station 5
+Train 3 is Outbound at position 6 on TrainRoute 1 with capacity 20
+Train 4 is Outbound at position 2 on TrainRoute 1 with capacity 20
+Train 5 is Outbound at position 15 on TrainRoute 1 with capacity 10
+Train 5 ARRIVED AT Station 4
+Passenger 21 boarded Train 5
+Passenger 62 boarded Train 5
+Passenger 88 boarded Train 5
+Passenger 102 boarded Train 5
+Train 6 is Inbound at position 10 on TrainRoute 1 with capacity 25
+Train 6 ARRIVED AT Station 5
+
+TICK: 13
+
+Station 0 has 0 passenger(s) inbound and 2 passenger(s) outbound
+Station 1 has 3 passenger(s) inbound and 29 passenger(s) outbound
+Station 2 has 9 passenger(s) inbound and 2 passenger(s) outbound
+Station 3 has 13 passenger(s) inbound and 2 passenger(s) outbound
+Station 4 has 26 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Outbound at position 12 on TrainRoute 1 with capacity 20
+Train 2 is Outbound at position 11 on TrainRoute 1 with capacity 15
+Train 3 is Outbound at position 7 on TrainRoute 1 with capacity 20
+Train 4 is Outbound at position 3 on TrainRoute 1 with capacity 20
+Train 5 is Outbound at position 16 on TrainRoute 1 with capacity 10
+Train 6 is Inbound at position 9 on TrainRoute 1 with capacity 25
+
+TICK: 14
+
+Station 0 has 0 passenger(s) inbound and 3 passenger(s) outbound
+Station 1 has 3 passenger(s) inbound and 30 passenger(s) outbound
+Station 2 has 10 passenger(s) inbound and 3 passenger(s) outbound
+Station 3 has 16 passenger(s) inbound and 2 passenger(s) outbound
+Station 4 has 29 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Outbound at position 13 on TrainRoute 1 with capacity 20
+Train 2 is Outbound at position 12 on TrainRoute 1 with capacity 15
+Train 3 is Outbound at position 8 on TrainRoute 1 with capacity 20
+Train 4 is Outbound at position 4 on TrainRoute 1 with capacity 20
+Train 4 ARRIVED AT Station 3
+Passenger 141 got off at Station 3
+Passenger 145 got off at Station 3
+Passenger 176 boarded Train 4
+Passenger 199 boarded Train 4
+Passenger 211 boarded Train 4
+Train 5 is Outbound at position 17 on TrainRoute 1 with capacity 10
+Train 6 is Inbound at position 8 on TrainRoute 1 with capacity 25
+
+TICK: 15
+
+Station 0 has 0 passenger(s) inbound and 9 passenger(s) outbound
+Station 1 has 5 passenger(s) inbound and 33 passenger(s) outbound
+Station 2 has 13 passenger(s) inbound and 0 passenger(s) outbound
+Station 3 has 21 passenger(s) inbound and 5 passenger(s) outbound
+Station 4 has 34 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Outbound at position 14 on TrainRoute 1 with capacity 20
+Train 2 is Outbound at position 13 on TrainRoute 1 with capacity 15
+Train 3 is Outbound at position 9 on TrainRoute 1 with capacity 20
+Train 4 is Outbound at position 5 on TrainRoute 1 with capacity 20
+Train 5 is Outbound at position 18 on TrainRoute 1 with capacity 10
+Train 6 is Inbound at position 7 on TrainRoute 1 with capacity 25
+
+TICK: 16
+
+Station 0 has 0 passenger(s) inbound and 12 passenger(s) outbound
+Station 1 has 8 passenger(s) inbound and 34 passenger(s) outbound
+Station 2 has 15 passenger(s) inbound and 0 passenger(s) outbound
+Station 3 has 24 passenger(s) inbound and 6 passenger(s) outbound
+Station 4 has 36 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Outbound at position 15 on TrainRoute 1 with capacity 20
+Train 1 ARRIVED AT Station 4
+Train 2 is Outbound at position 14 on TrainRoute 1 with capacity 15
+Train 3 is Outbound at position 10 on TrainRoute 1 with capacity 20
+Train 3 ARRIVED AT Station 5
+Train 4 is Outbound at position 6 on TrainRoute 1 with capacity 20
+Train 5 is Outbound at position 19 on TrainRoute 1 with capacity 10
+Train 6 is Inbound at position 6 on TrainRoute 1 with capacity 25
+
+TICK: 17
+
+Station 0 has 0 passenger(s) inbound and 15 passenger(s) outbound
+Station 1 has 11 passenger(s) inbound and 36 passenger(s) outbound
+Station 2 has 17 passenger(s) inbound and 3 passenger(s) outbound
+Station 3 has 30 passenger(s) inbound and 5 passenger(s) outbound
+Station 4 has 42 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Outbound at position 16 on TrainRoute 1 with capacity 20
+Train 2 is Outbound at position 15 on TrainRoute 1 with capacity 15
+Train 2 ARRIVED AT Station 4
+Passenger 151 boarded Train 2
+Passenger 214 boarded Train 2
+Passenger 227 boarded Train 2
+Passenger 234 boarded Train 2
+Passenger 241 boarded Train 2
+Train 3 is Outbound at position 11 on TrainRoute 1 with capacity 20
+Train 4 is Outbound at position 7 on TrainRoute 1 with capacity 20
+Train 5 is Outbound at position 20 on TrainRoute 1 with capacity 10
+Train 5 ARRIVED AT Station 2
+Train 6 is Inbound at position 5 on TrainRoute 1 with capacity 25
+
+TICK: 18
+
+Station 0 has 0 passenger(s) inbound and 17 passenger(s) outbound
+Station 1 has 13 passenger(s) inbound and 39 passenger(s) outbound
+Station 2 has 19 passenger(s) inbound and 4 passenger(s) outbound
+Station 3 has 31 passenger(s) inbound and 1 passenger(s) outbound
+Station 4 has 44 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Outbound at position 17 on TrainRoute 1 with capacity 20
+Train 2 is Outbound at position 16 on TrainRoute 1 with capacity 15
+Train 3 is Outbound at position 12 on TrainRoute 1 with capacity 20
+Train 4 is Outbound at position 8 on TrainRoute 1 with capacity 20
+Train 5 is Inbound at position 20 on TrainRoute 1 with capacity 10
+Train 5 ARRIVED AT Station 2
+Train 6 is Inbound at position 4 on TrainRoute 1 with capacity 25
+Train 6 ARRIVED AT Station 3
+Passenger 38 got off at Station 3
+Passenger 44 got off at Station 3
+Passenger 142 boarded Train 6
+Passenger 143 boarded Train 6
+
+TICK: 19
+
+Station 0 has 0 passenger(s) inbound and 18 passenger(s) outbound
+Station 1 has 13 passenger(s) inbound and 40 passenger(s) outbound
+Station 2 has 18 passenger(s) inbound and 5 passenger(s) outbound
+Station 3 has 32 passenger(s) inbound and 1 passenger(s) outbound
+Station 4 has 46 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Outbound at position 18 on TrainRoute 1 with capacity 20
+Train 2 is Outbound at position 17 on TrainRoute 1 with capacity 15
+Train 3 is Outbound at position 13 on TrainRoute 1 with capacity 20
+Train 4 is Outbound at position 9 on TrainRoute 1 with capacity 20
+Train 5 is Inbound at position 19 on TrainRoute 1 with capacity 10
+Train 6 is Inbound at position 3 on TrainRoute 1 with capacity 25
+
+TICK: 20
+
+Station 0 has 0 passenger(s) inbound and 20 passenger(s) outbound
+Station 1 has 14 passenger(s) inbound and 43 passenger(s) outbound
+Station 2 has 18 passenger(s) inbound and 5 passenger(s) outbound
+Station 3 has 34 passenger(s) inbound and 1 passenger(s) outbound
+Station 4 has 48 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Outbound at position 19 on TrainRoute 1 with capacity 20
+Train 2 is Outbound at position 18 on TrainRoute 1 with capacity 15
+Train 3 is Outbound at position 14 on TrainRoute 1 with capacity 20
+Train 4 is Outbound at position 10 on TrainRoute 1 with capacity 20
+Train 4 ARRIVED AT Station 5
+Train 5 is Inbound at position 18 on TrainRoute 1 with capacity 10
+Train 6 is Inbound at position 2 on TrainRoute 1 with capacity 25
+
+TICK: 21
+
+Station 0 has 0 passenger(s) inbound and 21 passenger(s) outbound
+Station 1 has 15 passenger(s) inbound and 45 passenger(s) outbound
+Station 2 has 19 passenger(s) inbound and 8 passenger(s) outbound
+Station 3 has 38 passenger(s) inbound and 3 passenger(s) outbound
+Station 4 has 51 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Outbound at position 20 on TrainRoute 1 with capacity 20
+Train 1 ARRIVED AT Station 2
+Train 2 is Outbound at position 19 on TrainRoute 1 with capacity 15
+Train 3 is Outbound at position 15 on TrainRoute 1 with capacity 20
+Train 3 ARRIVED AT Station 4
+Passenger 279 boarded Train 3
+Train 4 is Outbound at position 11 on TrainRoute 1 with capacity 20
+Train 5 is Inbound at position 17 on TrainRoute 1 with capacity 10
+Train 6 is Inbound at position 1 on TrainRoute 1 with capacity 25
+Train 6 ARRIVED AT Station 1
+Passenger 8 got off at Station 1
+Passenger 9 got off at Station 1
+Passenger 13 got off at Station 1
+Passenger 24 got off at Station 1
+Passenger 76 got off at Station 1
+Passenger 78 got off at Station 1
+Passenger 89 got off at Station 1
+Passenger 101 got off at Station 1
+Passenger 105 got off at Station 1
+Passenger 117 got off at Station 1
+
+TICK: 22
+
+Station 0 has 0 passenger(s) inbound and 23 passenger(s) outbound
+Station 1 has 18 passenger(s) inbound and 46 passenger(s) outbound
+Station 2 has 20 passenger(s) inbound and 10 passenger(s) outbound
+Station 3 has 42 passenger(s) inbound and 1 passenger(s) outbound
+Station 4 has 55 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Inbound at position 20 on TrainRoute 1 with capacity 20
+Train 1 ARRIVED AT Station 2
+Train 2 is Outbound at position 20 on TrainRoute 1 with capacity 15
+Train 2 ARRIVED AT Station 2
+Passenger 64 boarded Train 2
+Passenger 69 boarded Train 2
+Passenger 72 boarded Train 2
+Passenger 86 boarded Train 2
+Train 3 is Outbound at position 16 on TrainRoute 1 with capacity 20
+Train 4 is Outbound at position 12 on TrainRoute 1 with capacity 20
+Train 5 is Inbound at position 16 on TrainRoute 1 with capacity 10
+Train 6 is Outbound at position 1 on TrainRoute 1 with capacity 25
+Train 6 ARRIVED AT Station 1
+Passenger 187 boarded Train 6
+Passenger 198 boarded Train 6
+Passenger 205 boarded Train 6
+Passenger 215 boarded Train 6
+Passenger 216 boarded Train 6
+Passenger 222 boarded Train 6
+Passenger 233 boarded Train 6
+Passenger 237 boarded Train 6
+Passenger 238 boarded Train 6
+Passenger 240 boarded Train 6
+
+TICK: 23
+
+Station 0 has 0 passenger(s) inbound and 13 passenger(s) outbound
+Station 1 has 18 passenger(s) inbound and 44 passenger(s) outbound
+Station 2 has 20 passenger(s) inbound and 14 passenger(s) outbound
+Station 3 has 43 passenger(s) inbound and 2 passenger(s) outbound
+Station 4 has 56 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Inbound at position 19 on TrainRoute 1 with capacity 20
+Train 2 is Inbound at position 20 on TrainRoute 1 with capacity 15
+Train 2 ARRIVED AT Station 2
+Train 3 is Outbound at position 17 on TrainRoute 1 with capacity 20
+Train 4 is Outbound at position 13 on TrainRoute 1 with capacity 20
+Train 5 is Inbound at position 15 on TrainRoute 1 with capacity 10
+Train 5 ARRIVED AT Station 4
+Train 6 is Outbound at position 2 on TrainRoute 1 with capacity 25
+
+TICK: 24
+
+Station 0 has 0 passenger(s) inbound and 15 passenger(s) outbound
+Station 1 has 18 passenger(s) inbound and 45 passenger(s) outbound
+Station 2 has 22 passenger(s) inbound and 16 passenger(s) outbound
+Station 3 has 42 passenger(s) inbound and 3 passenger(s) outbound
+Station 4 has 57 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Inbound at position 18 on TrainRoute 1 with capacity 20
+Train 2 is Inbound at position 19 on TrainRoute 1 with capacity 15
+Train 3 is Outbound at position 18 on TrainRoute 1 with capacity 20
+Train 4 is Outbound at position 14 on TrainRoute 1 with capacity 20
+Train 5 is Inbound at position 14 on TrainRoute 1 with capacity 10
+Train 6 is Outbound at position 3 on TrainRoute 1 with capacity 25
+
+TICK: 25
+
+Station 0 has 0 passenger(s) inbound and 16 passenger(s) outbound
+Station 1 has 19 passenger(s) inbound and 49 passenger(s) outbound
+Station 2 has 22 passenger(s) inbound and 16 passenger(s) outbound
+Station 3 has 42 passenger(s) inbound and 3 passenger(s) outbound
+Station 4 has 59 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Inbound at position 17 on TrainRoute 1 with capacity 20
+Train 2 is Inbound at position 18 on TrainRoute 1 with capacity 15
+Train 3 is Outbound at position 19 on TrainRoute 1 with capacity 20
+Train 4 is Outbound at position 15 on TrainRoute 1 with capacity 20
+Train 4 ARRIVED AT Station 4
+Train 5 is Inbound at position 13 on TrainRoute 1 with capacity 10
+Train 6 is Outbound at position 4 on TrainRoute 1 with capacity 25
+Train 6 ARRIVED AT Station 3
+Passenger 205 got off at Station 3
+Passenger 264 boarded Train 6
+
+TICK: 26
+
+Station 0 has 0 passenger(s) inbound and 23 passenger(s) outbound
+Station 1 has 21 passenger(s) inbound and 49 passenger(s) outbound
+Station 2 has 25 passenger(s) inbound and 15 passenger(s) outbound
+Station 3 has 44 passenger(s) inbound and 5 passenger(s) outbound
+Station 4 has 65 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Inbound at position 16 on TrainRoute 1 with capacity 20
+Train 2 is Inbound at position 17 on TrainRoute 1 with capacity 15
+Train 3 is Outbound at position 20 on TrainRoute 1 with capacity 20
+Train 3 ARRIVED AT Station 2
+Train 4 is Outbound at position 16 on TrainRoute 1 with capacity 20
+Train 5 is Inbound at position 12 on TrainRoute 1 with capacity 10
+Train 6 is Outbound at position 5 on TrainRoute 1 with capacity 25
+
+TICK: 27
+
+Station 0 has 0 passenger(s) inbound and 26 passenger(s) outbound
+Station 1 has 21 passenger(s) inbound and 51 passenger(s) outbound
+Station 2 has 25 passenger(s) inbound and 17 passenger(s) outbound
+Station 3 has 45 passenger(s) inbound and 6 passenger(s) outbound
+Station 4 has 65 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Inbound at position 15 on TrainRoute 1 with capacity 20
+Train 1 ARRIVED AT Station 4
+Train 2 is Inbound at position 16 on TrainRoute 1 with capacity 15
+Train 3 is Inbound at position 20 on TrainRoute 1 with capacity 20
+Train 3 ARRIVED AT Station 2
+Train 4 is Outbound at position 17 on TrainRoute 1 with capacity 20
+Train 5 is Inbound at position 11 on TrainRoute 1 with capacity 10
+Train 6 is Outbound at position 6 on TrainRoute 1 with capacity 25
+
+TICK: 28
+
+Station 0 has 0 passenger(s) inbound and 26 passenger(s) outbound
+Station 1 has 20 passenger(s) inbound and 52 passenger(s) outbound
+Station 2 has 27 passenger(s) inbound and 18 passenger(s) outbound
+Station 3 has 45 passenger(s) inbound and 6 passenger(s) outbound
+Station 4 has 66 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Inbound at position 14 on TrainRoute 1 with capacity 20
+Train 2 is Inbound at position 15 on TrainRoute 1 with capacity 15
+Train 2 ARRIVED AT Station 4
+Train 3 is Inbound at position 19 on TrainRoute 1 with capacity 20
+Train 4 is Outbound at position 18 on TrainRoute 1 with capacity 20
+Train 5 is Inbound at position 10 on TrainRoute 1 with capacity 10
+Train 5 ARRIVED AT Station 5
+Train 6 is Outbound at position 7 on TrainRoute 1 with capacity 25
+
+TICK: 29
+
+Station 0 has 0 passenger(s) inbound and 29 passenger(s) outbound
+Station 1 has 21 passenger(s) inbound and 53 passenger(s) outbound
+Station 2 has 27 passenger(s) inbound and 20 passenger(s) outbound
+Station 3 has 46 passenger(s) inbound and 7 passenger(s) outbound
+Station 4 has 68 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Inbound at position 13 on TrainRoute 1 with capacity 20
+Train 2 is Inbound at position 14 on TrainRoute 1 with capacity 15
+Train 3 is Inbound at position 18 on TrainRoute 1 with capacity 20
+Train 4 is Outbound at position 19 on TrainRoute 1 with capacity 20
+Train 5 is Inbound at position 9 on TrainRoute 1 with capacity 10
+Train 6 is Outbound at position 8 on TrainRoute 1 with capacity 25
+
+TICK: 30
+
+Station 0 has 0 passenger(s) inbound and 33 passenger(s) outbound
+Station 1 has 22 passenger(s) inbound and 56 passenger(s) outbound
+Station 2 has 27 passenger(s) inbound and 22 passenger(s) outbound
+Station 3 has 47 passenger(s) inbound and 7 passenger(s) outbound
+Station 4 has 71 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Inbound at position 12 on TrainRoute 1 with capacity 20
+Train 2 is Inbound at position 13 on TrainRoute 1 with capacity 15
+Train 3 is Inbound at position 17 on TrainRoute 1 with capacity 20
+Train 4 is Outbound at position 20 on TrainRoute 1 with capacity 20
+Train 4 ARRIVED AT Station 2
+Train 5 is Inbound at position 8 on TrainRoute 1 with capacity 10
+Train 6 is Outbound at position 9 on TrainRoute 1 with capacity 25
+
+TICK: 31
+
+Station 0 has 0 passenger(s) inbound and 38 passenger(s) outbound
+Station 1 has 22 passenger(s) inbound and 57 passenger(s) outbound
+Station 2 has 29 passenger(s) inbound and 25 passenger(s) outbound
+Station 3 has 48 passenger(s) inbound and 7 passenger(s) outbound
+Station 4 has 75 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Inbound at position 11 on TrainRoute 1 with capacity 20
+Train 2 is Inbound at position 12 on TrainRoute 1 with capacity 15
+Train 3 is Inbound at position 16 on TrainRoute 1 with capacity 20
+Train 4 is Inbound at position 20 on TrainRoute 1 with capacity 20
+Train 4 ARRIVED AT Station 2
+Train 5 is Inbound at position 7 on TrainRoute 1 with capacity 10
+Train 6 is Outbound at position 10 on TrainRoute 1 with capacity 25
+Train 6 ARRIVED AT Station 5
+
+TICK: 32
+
+Station 0 has 0 passenger(s) inbound and 40 passenger(s) outbound
+Station 1 has 22 passenger(s) inbound and 61 passenger(s) outbound
+Station 2 has 33 passenger(s) inbound and 26 passenger(s) outbound
+Station 3 has 49 passenger(s) inbound and 8 passenger(s) outbound
+Station 4 has 79 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Inbound at position 10 on TrainRoute 1 with capacity 20
+Train 1 ARRIVED AT Station 5
+Train 2 is Inbound at position 11 on TrainRoute 1 with capacity 15
+Train 3 is Inbound at position 15 on TrainRoute 1 with capacity 20
+Train 3 ARRIVED AT Station 4
+Train 4 is Inbound at position 19 on TrainRoute 1 with capacity 20
+Train 5 is Inbound at position 6 on TrainRoute 1 with capacity 10
+Train 6 is Outbound at position 11 on TrainRoute 1 with capacity 25
+
+TICK: 33
+
+Station 0 has 0 passenger(s) inbound and 42 passenger(s) outbound
+Station 1 has 22 passenger(s) inbound and 62 passenger(s) outbound
+Station 2 has 36 passenger(s) inbound and 27 passenger(s) outbound
+Station 3 has 50 passenger(s) inbound and 8 passenger(s) outbound
+Station 4 has 82 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Inbound at position 9 on TrainRoute 1 with capacity 20
+Train 2 is Inbound at position 10 on TrainRoute 1 with capacity 15
+Train 2 ARRIVED AT Station 5
+Train 3 is Inbound at position 14 on TrainRoute 1 with capacity 20
+Train 4 is Inbound at position 18 on TrainRoute 1 with capacity 20
+Train 5 is Inbound at position 5 on TrainRoute 1 with capacity 10
+Train 6 is Outbound at position 12 on TrainRoute 1 with capacity 25
+
+TICK: 34
+
+Station 0 has 0 passenger(s) inbound and 45 passenger(s) outbound
+Station 1 has 22 passenger(s) inbound and 63 passenger(s) outbound
+Station 2 has 39 passenger(s) inbound and 28 passenger(s) outbound
+Station 3 has 50 passenger(s) inbound and 9 passenger(s) outbound
+Station 4 has 84 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Inbound at position 8 on TrainRoute 1 with capacity 20
+Train 2 is Inbound at position 9 on TrainRoute 1 with capacity 15
+Train 3 is Inbound at position 13 on TrainRoute 1 with capacity 20
+Train 4 is Inbound at position 17 on TrainRoute 1 with capacity 20
+Train 5 is Inbound at position 4 on TrainRoute 1 with capacity 10
+Train 5 ARRIVED AT Station 3
+Passenger 5 got off at Station 3
+Passenger 29 got off at Station 3
+Passenger 21 got off at Station 3
+Passenger 62 got off at Station 3
+Passenger 88 got off at Station 3
+Passenger 102 got off at Station 3
+Passenger 167 boarded Train 5
+Passenger 172 boarded Train 5
+Passenger 177 boarded Train 5
+Passenger 183 boarded Train 5
+Passenger 200 boarded Train 5
+Passenger 201 boarded Train 5
+Train 6 is Outbound at position 13 on TrainRoute 1 with capacity 25
+
+TICK: 35
+
+Station 0 has 0 passenger(s) inbound and 45 passenger(s) outbound
+Station 1 has 22 passenger(s) inbound and 64 passenger(s) outbound
+Station 2 has 33 passenger(s) inbound and 30 passenger(s) outbound
+Station 3 has 53 passenger(s) inbound and 11 passenger(s) outbound
+Station 4 has 87 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Inbound at position 7 on TrainRoute 1 with capacity 20
+Train 2 is Inbound at position 8 on TrainRoute 1 with capacity 15
+Train 3 is Inbound at position 12 on TrainRoute 1 with capacity 20
+Train 4 is Inbound at position 16 on TrainRoute 1 with capacity 20
+Train 5 is Inbound at position 3 on TrainRoute 1 with capacity 10
+Train 6 is Outbound at position 14 on TrainRoute 1 with capacity 25
+
+TICK: 36
+
+Station 0 has 0 passenger(s) inbound and 48 passenger(s) outbound
+Station 1 has 23 passenger(s) inbound and 70 passenger(s) outbound
+Station 2 has 35 passenger(s) inbound and 33 passenger(s) outbound
+Station 3 has 57 passenger(s) inbound and 13 passenger(s) outbound
+Station 4 has 90 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Inbound at position 6 on TrainRoute 1 with capacity 20
+Train 2 is Inbound at position 7 on TrainRoute 1 with capacity 15
+Train 3 is Inbound at position 11 on TrainRoute 1 with capacity 20
+Train 4 is Inbound at position 15 on TrainRoute 1 with capacity 20
+Train 4 ARRIVED AT Station 4
+Train 5 is Inbound at position 2 on TrainRoute 1 with capacity 10
+Train 6 is Outbound at position 15 on TrainRoute 1 with capacity 25
+Train 6 ARRIVED AT Station 4
+
+TICK: 37
+
+Station 0 has 0 passenger(s) inbound and 48 passenger(s) outbound
+Station 1 has 24 passenger(s) inbound and 75 passenger(s) outbound
+Station 2 has 36 passenger(s) inbound and 35 passenger(s) outbound
+Station 3 has 58 passenger(s) inbound and 12 passenger(s) outbound
+Station 4 has 93 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Inbound at position 5 on TrainRoute 1 with capacity 20
+Train 2 is Inbound at position 6 on TrainRoute 1 with capacity 15
+Train 3 is Inbound at position 10 on TrainRoute 1 with capacity 20
+Train 3 ARRIVED AT Station 5
+Train 4 is Inbound at position 14 on TrainRoute 1 with capacity 20
+Train 5 is Inbound at position 1 on TrainRoute 1 with capacity 10
+Train 5 ARRIVED AT Station 1
+Passenger 172 got off at Station 1
+Passenger 200 got off at Station 1
+Train 6 is Outbound at position 16 on TrainRoute 1 with capacity 25
+
+TICK: 38
+
+Station 0 has 0 passenger(s) inbound and 52 passenger(s) outbound
+Station 1 has 26 passenger(s) inbound and 77 passenger(s) outbound
+Station 2 has 38 passenger(s) inbound and 36 passenger(s) outbound
+Station 3 has 60 passenger(s) inbound and 12 passenger(s) outbound
+Station 4 has 97 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Inbound at position 4 on TrainRoute 1 with capacity 20
+Train 1 ARRIVED AT Station 3
+Passenger 92 got off at Station 3
+Passenger 212 boarded Train 1
+Train 2 is Inbound at position 5 on TrainRoute 1 with capacity 15
+Train 3 is Inbound at position 9 on TrainRoute 1 with capacity 20
+Train 4 is Inbound at position 13 on TrainRoute 1 with capacity 20
+Train 5 is Outbound at position 1 on TrainRoute 1 with capacity 10
+Train 5 ARRIVED AT Station 1
+Passenger 252 boarded Train 5
+Passenger 261 boarded Train 5
+Train 6 is Outbound at position 17 on TrainRoute 1 with capacity 25
+
+TICK: 39
+
+Station 0 has 0 passenger(s) inbound and 50 passenger(s) outbound
+Station 1 has 26 passenger(s) inbound and 77 passenger(s) outbound
+Station 2 has 38 passenger(s) inbound and 37 passenger(s) outbound
+Station 3 has 60 passenger(s) inbound and 12 passenger(s) outbound
+Station 4 has 100 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Inbound at position 3 on TrainRoute 1 with capacity 20
+Train 2 is Inbound at position 4 on TrainRoute 1 with capacity 15
+Train 2 ARRIVED AT Station 3
+Passenger 125 got off at Station 3
+Passenger 126 got off at Station 3
+Passenger 151 got off at Station 3
+Passenger 214 got off at Station 3
+Passenger 227 got off at Station 3
+Passenger 234 got off at Station 3
+Passenger 241 got off at Station 3
+Passenger 64 got off at Station 3
+Passenger 86 got off at Station 3
+Passenger 226 boarded Train 2
+Passenger 239 boarded Train 2
+Passenger 249 boarded Train 2
+Passenger 257 boarded Train 2
+Passenger 268 boarded Train 2
+Passenger 281 boarded Train 2
+Passenger 290 boarded Train 2
+Passenger 299 boarded Train 2
+Passenger 300 boarded Train 2
+Train 3 is Inbound at position 8 on TrainRoute 1 with capacity 20
+Train 4 is Inbound at position 12 on TrainRoute 1 with capacity 20
+Train 5 is Outbound at position 2 on TrainRoute 1 with capacity 10
+Train 6 is Outbound at position 18 on TrainRoute 1 with capacity 25
+
+TICK: 40
+
+Station 0 has 0 passenger(s) inbound and 50 passenger(s) outbound
+Station 1 has 27 passenger(s) inbound and 78 passenger(s) outbound
+Station 2 has 29 passenger(s) inbound and 37 passenger(s) outbound
+Station 3 has 64 passenger(s) inbound and 13 passenger(s) outbound
+Station 4 has 102 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Inbound at position 2 on TrainRoute 1 with capacity 20
+Train 2 is Inbound at position 3 on TrainRoute 1 with capacity 15
+Train 3 is Inbound at position 7 on TrainRoute 1 with capacity 20
+Train 4 is Inbound at position 11 on TrainRoute 1 with capacity 20
+Train 5 is Outbound at position 3 on TrainRoute 1 with capacity 10
+Train 6 is Outbound at position 19 on TrainRoute 1 with capacity 25
+
+TICK: 41
+
+Station 0 has 0 passenger(s) inbound and 51 passenger(s) outbound
+Station 1 has 27 passenger(s) inbound and 81 passenger(s) outbound
+Station 2 has 30 passenger(s) inbound and 37 passenger(s) outbound
+Station 3 has 67 passenger(s) inbound and 13 passenger(s) outbound
+Station 4 has 103 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Inbound at position 1 on TrainRoute 1 with capacity 20
+Train 1 ARRIVED AT Station 1
+Passenger 1 got off at Station 1
+Passenger 31 got off at Station 1
+Passenger 33 got off at Station 1
+Passenger 212 got off at Station 1
+Train 2 is Inbound at position 2 on TrainRoute 1 with capacity 15
+Train 3 is Inbound at position 6 on TrainRoute 1 with capacity 20
+Train 4 is Inbound at position 10 on TrainRoute 1 with capacity 20
+Train 4 ARRIVED AT Station 5
+Train 5 is Outbound at position 4 on TrainRoute 1 with capacity 10
+Train 5 ARRIVED AT Station 3
+Passenger 252 got off at Station 3
+Passenger 272 boarded Train 5
+Train 6 is Outbound at position 20 on TrainRoute 1 with capacity 25
+Train 6 ARRIVED AT Station 2
+
+TICK: 42
+
+Station 0 has 0 passenger(s) inbound and 58 passenger(s) outbound
+Station 1 has 27 passenger(s) inbound and 82 passenger(s) outbound
+Station 2 has 34 passenger(s) inbound and 37 passenger(s) outbound
+Station 3 has 67 passenger(s) inbound and 13 passenger(s) outbound
+Station 4 has 104 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Outbound at position 1 on TrainRoute 1 with capacity 20
+Train 1 ARRIVED AT Station 1
+Passenger 266 boarded Train 1
+Passenger 283 boarded Train 1
+Passenger 291 boarded Train 1
+Passenger 298 boarded Train 1
+Train 2 is Inbound at position 1 on TrainRoute 1 with capacity 15
+Train 2 ARRIVED AT Station 1
+Passenger 82 got off at Station 1
+Passenger 226 got off at Station 1
+Passenger 268 got off at Station 1
+Passenger 290 got off at Station 1
+Train 3 is Inbound at position 5 on TrainRoute 1 with capacity 20
+Train 4 is Inbound at position 9 on TrainRoute 1 with capacity 20
+Train 5 is Outbound at position 5 on TrainRoute 1 with capacity 10
+Train 6 is Inbound at position 20 on TrainRoute 1 with capacity 25
+Train 6 ARRIVED AT Station 2
+
+TICK: 43
+
+Station 0 has 0 passenger(s) inbound and 54 passenger(s) outbound
+Station 1 has 26 passenger(s) inbound and 85 passenger(s) outbound
+Station 2 has 34 passenger(s) inbound and 37 passenger(s) outbound
+Station 3 has 69 passenger(s) inbound and 16 passenger(s) outbound
+Station 4 has 107 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Outbound at position 2 on TrainRoute 1 with capacity 20
+Train 2 is Outbound at position 1 on TrainRoute 1 with capacity 15
+Train 2 ARRIVED AT Station 1
+Passenger 307 boarded Train 2
+Passenger 320 boarded Train 2
+Passenger 337 boarded Train 2
+Passenger 347 boarded Train 2
+Train 3 is Inbound at position 4 on TrainRoute 1 with capacity 20
+Train 3 ARRIVED AT Station 3
+Passenger 132 got off at Station 3
+Passenger 137 got off at Station 3
+Passenger 139 got off at Station 3
+Passenger 163 got off at Station 3
+Passenger 171 got off at Station 3
+Passenger 279 got off at Station 3
+Passenger 340 boarded Train 3
+Passenger 361 boarded Train 3
+Passenger 368 boarded Train 3
+Passenger 386 boarded Train 3
+Passenger 397 boarded Train 3
+Passenger 399 boarded Train 3
+Train 4 is Inbound at position 8 on TrainRoute 1 with capacity 20
+Train 5 is Outbound at position 6 on TrainRoute 1 with capacity 10
+Train 6 is Inbound at position 19 on TrainRoute 1 with capacity 25
+
+TICK: 44
+
+Station 0 has 0 passenger(s) inbound and 55 passenger(s) outbound
+Station 1 has 26 passenger(s) inbound and 89 passenger(s) outbound
+Station 2 has 27 passenger(s) inbound and 39 passenger(s) outbound
+Station 3 has 74 passenger(s) inbound and 17 passenger(s) outbound
+Station 4 has 115 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Outbound at position 3 on TrainRoute 1 with capacity 20
+Train 2 is Outbound at position 2 on TrainRoute 1 with capacity 15
+Train 3 is Inbound at position 3 on TrainRoute 1 with capacity 20
+Train 4 is Inbound at position 7 on TrainRoute 1 with capacity 20
+Train 5 is Outbound at position 7 on TrainRoute 1 with capacity 10
+Train 6 is Inbound at position 18 on TrainRoute 1 with capacity 25
+
+TICK: 45
+
+Station 0 has 0 passenger(s) inbound and 59 passenger(s) outbound
+Station 1 has 26 passenger(s) inbound and 90 passenger(s) outbound
+Station 2 has 27 passenger(s) inbound and 42 passenger(s) outbound
+Station 3 has 81 passenger(s) inbound and 18 passenger(s) outbound
+Station 4 has 119 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Outbound at position 4 on TrainRoute 1 with capacity 20
+Train 1 ARRIVED AT Station 3
+Passenger 298 got off at Station 3
+Passenger 297 boarded Train 1
+Train 2 is Outbound at position 3 on TrainRoute 1 with capacity 15
+Train 3 is Inbound at position 2 on TrainRoute 1 with capacity 20
+Train 4 is Inbound at position 6 on TrainRoute 1 with capacity 20
+Train 5 is Outbound at position 8 on TrainRoute 1 with capacity 10
+Train 6 is Inbound at position 17 on TrainRoute 1 with capacity 25
+
+TICK: 46
+
+Station 0 has 0 passenger(s) inbound and 63 passenger(s) outbound
+Station 1 has 26 passenger(s) inbound and 94 passenger(s) outbound
+Station 2 has 32 passenger(s) inbound and 42 passenger(s) outbound
+Station 3 has 84 passenger(s) inbound and 19 passenger(s) outbound
+Station 4 has 127 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Outbound at position 5 on TrainRoute 1 with capacity 20
+Train 2 is Outbound at position 4 on TrainRoute 1 with capacity 15
+Train 2 ARRIVED AT Station 3
+Train 3 is Inbound at position 1 on TrainRoute 1 with capacity 20
+Train 3 ARRIVED AT Station 1
+Passenger 93 got off at Station 1
+Passenger 340 got off at Station 1
+Passenger 386 got off at Station 1
+Train 4 is Inbound at position 5 on TrainRoute 1 with capacity 20
+Train 5 is Outbound at position 9 on TrainRoute 1 with capacity 10
+Train 6 is Inbound at position 16 on TrainRoute 1 with capacity 25
+
+TICK: 47
+
+Station 0 has 0 passenger(s) inbound and 63 passenger(s) outbound
+Station 1 has 26 passenger(s) inbound and 96 passenger(s) outbound
+Station 2 has 33 passenger(s) inbound and 43 passenger(s) outbound
+Station 3 has 87 passenger(s) inbound and 20 passenger(s) outbound
+Station 4 has 129 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Outbound at position 6 on TrainRoute 1 with capacity 20
+Train 2 is Outbound at position 5 on TrainRoute 1 with capacity 15
+Train 3 is Outbound at position 1 on TrainRoute 1 with capacity 20
+Train 3 ARRIVED AT Station 1
+Passenger 363 boarded Train 3
+Passenger 366 boarded Train 3
+Passenger 370 boarded Train 3
+Train 4 is Inbound at position 4 on TrainRoute 1 with capacity 20
+Train 4 ARRIVED AT Station 3
+Passenger 199 got off at Station 3
+Passenger 211 got off at Station 3
+Passenger 416 boarded Train 4
+Passenger 446 boarded Train 4
+Train 5 is Outbound at position 10 on TrainRoute 1 with capacity 10
+Train 5 ARRIVED AT Station 5
+Train 6 is Inbound at position 15 on TrainRoute 1 with capacity 25
+Train 6 ARRIVED AT Station 4
+
+TICK: 48
+
+Station 0 has 0 passenger(s) inbound and 60 passenger(s) outbound
+Station 1 has 26 passenger(s) inbound and 99 passenger(s) outbound
+Station 2 has 31 passenger(s) inbound and 45 passenger(s) outbound
+Station 3 has 86 passenger(s) inbound and 20 passenger(s) outbound
+Station 4 has 131 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Outbound at position 7 on TrainRoute 1 with capacity 20
+Train 2 is Outbound at position 6 on TrainRoute 1 with capacity 15
+Train 3 is Outbound at position 2 on TrainRoute 1 with capacity 20
+Train 4 is Inbound at position 3 on TrainRoute 1 with capacity 20
+Train 5 is Outbound at position 11 on TrainRoute 1 with capacity 10
+Train 6 is Inbound at position 14 on TrainRoute 1 with capacity 25
+
+TICK: 49
+
+Station 0 has 0 passenger(s) inbound and 60 passenger(s) outbound
+Station 1 has 27 passenger(s) inbound and 101 passenger(s) outbound
+Station 2 has 34 passenger(s) inbound and 45 passenger(s) outbound
+Station 3 has 88 passenger(s) inbound and 20 passenger(s) outbound
+Station 4 has 132 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Outbound at position 8 on TrainRoute 1 with capacity 20
+Train 2 is Outbound at position 7 on TrainRoute 1 with capacity 15
+Train 3 is Outbound at position 3 on TrainRoute 1 with capacity 20
+Train 4 is Inbound at position 2 on TrainRoute 1 with capacity 20
+Train 5 is Outbound at position 12 on TrainRoute 1 with capacity 10
+Train 6 is Inbound at position 13 on TrainRoute 1 with capacity 25
+
+TICK: 50
+
+Station 0 has 0 passenger(s) inbound and 67 passenger(s) outbound
+Station 1 has 28 passenger(s) inbound and 102 passenger(s) outbound
+Station 2 has 36 passenger(s) inbound and 45 passenger(s) outbound
+Station 3 has 90 passenger(s) inbound and 20 passenger(s) outbound
+Station 4 has 132 passenger(s) inbound and 0 passenger(s) outbound
+
+Train 1 is Outbound at position 9 on TrainRoute 1 with capacity 20
+Train 2 is Outbound at position 8 on TrainRoute 1 with capacity 15
+Train 3 is Outbound at position 4 on TrainRoute 1 with capacity 20
+Train 3 ARRIVED AT Station 3
+Train 4 is Inbound at position 1 on TrainRoute 1 with capacity 20
+Train 4 ARRIVED AT Station 1
+Passenger 181 got off at Station 1
+Passenger 416 got off at Station 1
+Train 5 is Outbound at position 13 on TrainRoute 1 with capacity 10
+Train 6 is Inbound at position 12 on TrainRoute 1 with capacity 25
+
